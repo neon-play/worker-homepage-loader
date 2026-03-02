@@ -9,7 +9,7 @@
     "deploy": "wrangler deploy"
   },
    "dependencies": {
-    "@libsql/client": "^0.17.0",
+    "@libsql/client": "^0.17.0"
   },
   "devDependencies": {
     "wrangler": "^4.69.0"
