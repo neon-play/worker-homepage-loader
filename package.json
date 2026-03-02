@@ -1,0 +1,20 @@
+{
+  "name": "anime-api-worker",
+  "version": "1.0.0",
+  "private": true,
+  " main": "worker-homepage-loader.js"
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.27.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.69.0"
+  }
+"engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,17 @@
+name = "worker-homepage-loader"
+main = "worker-homepage-loader.js"
+compatibility_date = "2025-02-04"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGIN = ""
+GITHUB_REPO = ""
+GITHUB_PATH = ""
+TURSO_DATABASE_URL = ""
+TURSO_AUTH_TOKEN = ""
+
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "9429d1b5b13343f58ee3275327241ccd"
