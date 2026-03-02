@@ -2,7 +2,7 @@
   "name": "anime-api-worker",
   "version": "1.0.0",
   "private": true,
-  " main": "worker-homepage-loader.js"
+  "main": "worker-homepage-loader.js"
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
